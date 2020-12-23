@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1220"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "363B1ED64330BF67EEC2A1284DEB8C00"
+               BuildableName = "HelloWorldSDK"
+               BlueprintName = "HelloWorldSDK"
+               ReferencedContainer = "container:Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -19,7 +35,7 @@
                BlueprintIdentifier = "631A261025931FDE00D8514F"
                BuildableName = "HelloWorldSDKTests.xctest"
                BlueprintName = "HelloWorldSDKTests"
-               ReferencedContainer = "container:HelloWorldSDK.xcodeproj">
+               ReferencedContainer = "container:../HelloWorldSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -34,6 +50,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "631A264625932E7E00D8514F"
+            BuildableName = "HelloWorldExampleApp.app"
+            BlueprintName = "HelloWorldExampleApp"
+            ReferencedContainer = "container:../HelloWorldSDK.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -41,6 +67,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "363B1ED64330BF67EEC2A1284DEB8C00"
+            BuildableName = "HelloWorldSDK"
+            BlueprintName = "HelloWorldSDK"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

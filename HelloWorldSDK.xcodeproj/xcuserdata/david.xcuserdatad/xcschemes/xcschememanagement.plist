@@ -7,17 +7,17 @@
 		<key>HelloWorldSDK.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>HelloWorldSDKTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>631A261025931FDE00D8514F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631A264625932E7E00D8514F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

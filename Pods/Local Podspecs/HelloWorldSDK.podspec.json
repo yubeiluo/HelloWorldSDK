@@ -1,0 +1,24 @@
+{
+  "name": "HelloWorldSDK",
+  "version": "0.0.1",
+  "summary": "iOS SDK for Hello World",
+  "description": "iOS SDK for Hello World, including example app",
+  "homepage": "https://github.com/yubeiluo",
+  "license": "MIT",
+  "authors": {
+    "david": "yubeiluo@126.com"
+  },
+  "source": {
+    "git": "https://github.com/yubeiluo/HelloWorldSDK.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "HelloWorldSDK/**/*.{h,m, swift}",
+  "exclude_files": "HelloWorldSDK/Exclude",
+  "public_header_files": "HelloWorldSDK/**/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  iOS SDK for Hello World, including example app
+iOS SDK for Hello World, including example app
                    DESC
 
   spec.homepage     = "https://github.com/yubeiluo"
